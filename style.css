@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
+.hide {
+  display: none;
+}
+
+.controller {
+  position: absolute;
+  left: 1px;
+  top: 655px;
+  z-index: 1;
+  background:#ced6e0;
+  border: 2px solid #ddd;
+  padding: 10px;
+}
+.controller ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.controller ul li {
+  margin: 5px 0 8px;
+}
+.controller ul button {
+  display: block;
+  width: 100%;
+  padding: 5px 15px;
+}
+.controller .active {
+  background: #70a1ff;
+  color: #fff;
+}
+
+#btn_run_algorithm {
+  display: block;
+  margin-top: 15px;
+  background:#ff6b81;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 1.4rem;
+}
+
+#notification {
+  position: fixed;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 25px;
+  text-align: center;
+  color: #fff;
+  padding: 6px 25px 5px;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+input[type=range] {
+  width: 100%;
+}
+
+/*h1{
+  color: #ff7f50;
+  text-align: center;
+  border-bottom: 2px solid #ff7f50;
+}*/
+
+footer {
+  background-color:#ff7f50;
+  padding: 12px;
+  text-align: center;
+  color: white;
+}
+
+table, th, td {
+  border:1px solid black;
+  width: 10%;
+  height: 20%;
+  padding: 1px;
+}
+
+/*.tmp{
+  color: #ff4757;
+  text-align: left;
+}*/

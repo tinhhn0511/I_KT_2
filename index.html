@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dijkstra&#39;s Algorithm Visualizer</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<canvas id="canvas"></canvas>
+
+<div class="controller">
+  <ul>
+    <li><button id="btn_select">Select</button></li>
+    <li><button id="btn_addPoint">Add Point</button></li>
+    <li><button id="btn_addEdge">Add Edge</button></li>
+    <li id="wrap_animationSpeed">
+      <label>Animation Speed <span>(1500ms)</span></label>
+      <input type="range" min="0" max="3000" step="500" value="1500"></li>
+  </ul>
+  <p>Shortest path </br>from <select id="from"></select> to <select id="to"></select>
+  </p>
+<button id="btn_run_algorithm"><i class="fa fa-play icon"></i> Run Algorithm</button>
+</div>
+<div id="notification">Loading...</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js'></script><script  src="./script.js"></script>
+
+  <div>
+    Môn học: Lí thuyết đồ thị và ứng dụng
+  </div >
+
+  <div>
+    GVLT: Nguyễn Việt Hưng
+  </div>
+
+  <div>
+    GVTH: Lương Trần Ngọc Triết
+  </div>
+
+  <table style="width:100%">
+    <tr>
+      <th>Thành Viên Nhóm ( I_KT_2 ) </th>
+      <th>MSSV</th>
+    </tr>
+    <tr>
+      <td>Phạm Nhật Khánh</td>
+      <td>4501104109 </td>
+    </tr>
+    <tr>
+      <td>Hồ Nhật Tình</td>
+      <td>4501104242</td>
+    </tr>
+  </table>
+
+  <footer>
+    <p>Designed by Group I_KT_2 @2021</p>
+  </footer>
+</body>
+</html>
+
+
